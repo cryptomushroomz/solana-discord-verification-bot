@@ -9,7 +9,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "heroku-postbuild": "yarn build && varn start"
+    "heroku-postbuild": "yarn build && yarn start"
   },
   "dependencies": {
     "@nfteyez/sol-rayz": "^0.8.0",
